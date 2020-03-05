@@ -307,8 +307,8 @@ public abstract class MapboxMatrix extends MapboxService<MatrixResponse, MatrixS
       if (coordinates == null || coordinates.size() < 2) {
         throw new ServicesException("At least two coordinates must be provided with your API"
           + " request.");
-      } else if (coordinates.size() > 25) {
-        throw new ServicesException("Maximum of 25 coordinates are allowed for this API.");
+      } else if (coordinates.size() > 50) {
+        throw new ServicesException("Maximum of 50 coordinates are allowed for this API.");
       }
 
       coordinates(formatCoordinates(coordinates));

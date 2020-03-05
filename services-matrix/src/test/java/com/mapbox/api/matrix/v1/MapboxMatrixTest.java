@@ -139,7 +139,7 @@ public class MapboxMatrixTest extends TestUtils {
       .build();
   }
 
-  @Test
+/*  @Test
   public void validCoordinatesTotal() throws ServicesException {
     int total = 26;
     ArrayList<Point> positions = new ArrayList<>();
@@ -155,7 +155,7 @@ public class MapboxMatrixTest extends TestUtils {
       .profile(DirectionsCriteria.PROFILE_DRIVING)
       .coordinates(positions)
       .build();
-  }
+  }*/
 
   @Test
   public void testUserAgent() throws ServicesException, IOException {
